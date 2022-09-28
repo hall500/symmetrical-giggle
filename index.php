@@ -19,13 +19,17 @@
 
     <main>
         <section id="about">
+            <div>
             <p>GoolRC SG900 RC Drone with Camera 4K 22mins Flight Time RC Quadcopter Optical Flow Positioning Gesture Photo Video Image Follow Altitude Hold Drone</p>
+            <a href="./pay">Buy Now</a>
+            </div>
             <iframe id="video" src="https://www.youtube.com/embed/_7wWHFvSxjk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <section id="brand">
             <h3>About GoolRC</h3>
             <p>GoolRC is an enterprise brand focusing on games and toys. It provides countless high-quality products and high-quality after-sales service for all countries in the world. It is welcomed and loved by countless customers. We always adhere to the principle of products and services, create products we all like, and become a great brand recognized by everyone.</p>
+            <button>Buy Now</button>
         </section>
 
         <h3 class="heading">Features</h3>
