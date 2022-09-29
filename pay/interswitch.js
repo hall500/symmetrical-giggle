@@ -30,6 +30,14 @@ function checkout(){
   //callback function that gets triggered on payment success or failure
   function paymentCallback(response){
       if(response != null){
-          alert(response.desc);
+        async function fetchMoviesJSON() {
+            const request = await fetch('https://qa.interswitchng.com/collections/api/v1/gettransaction.json', {
+                merchantcode: 'MX101505',
+                transactionreference: response.txnref,
+                amount: document.getElementsByName('amount')[0].value * 100
+            });
+            const verifyTxn = await request.json();
+            console.log(verifyTxn);
+        }
       }
   }

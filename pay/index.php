@@ -137,6 +137,30 @@
 						Pay with Interswitch
 					</span>
                 </button>
+
+                <button style="border: 1px solid rgb(206, 206, 206);
+				height: 40px;
+				margin: 0;
+				box-shadow: rgb(226, 224, 224) 0px 1px 3px;
+				padding: 0 2em 0 0.8em;
+				font-weight: 700;
+				border-radius: 4px;
+				color: rgb(0, 66, 95);
+				font-size: 13px;
+				text-transform: uppercase;
+				background-color: #FFF;
+				background-image: url(https://paymentgateway.interswitchgroup.com/paymentgateway/public/images/isw_paynow_btnbg.png);
+				width: 260px;
+				display: inline-block;
+				box-sizing: border-box;
+				cursor: pointer;
+				font-family: 'proxima-nova', sans-serif, 'Helvetica';" disabled>
+                    <img style="float:left; height: 35px; width: 50px;" class="isw-pay-logo"
+                         src="https://w7.pngwing.com/pngs/962/794/png-transparent-mastercard-credit-card-mastercard-logo-mastercard-logo-love-text-heart.png" />
+                    <span style="margin-top: 10px;display: inline-block;margin-left: 8px;">
+						Pay with Mastercard
+					</span>
+                </button>
         </div>
     </div>
 
